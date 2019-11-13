@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Intro"/>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="11111"
+                android:id="@+id/tv_name"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:paddingRight="@dimen/dp_16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:text="11111"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+            <TextView
+                android:id="@+id/tv_origin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_life"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_link"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_friend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_Temperament"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_Weight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="11111"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button
+        android:onClick="Coll"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="collect"/>
+</LinearLayout>
